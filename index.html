@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+      .content-container {
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+	  }
+	  .bg-container {
+		  display: flex;
+		  flex-direction: column;
+		  justify-content: center;
+		  align-items: center;
+	  }
+	  .input-container {
+		  display: flex;
+		  justify-content: space-between;
+		  align-items: flex-start;
+	}
+	.button {
+		width: 100px;
+		height: 40px;
+		background-color: lightblue;
+	}
+   </style>
+</head>
+<body>
+	<div class="bg-container">
+		<div class="content-container">
+			<div class="input-container">
+				<label for="UserName">User Name:</label>
+				<input type="text" id="UserName" class="input-field" />
+			</div>
+			<div class="input-container">
+				<label for="Email">Email:</label>
+				<input type="text" id="Email" class="input-field" />
+			</div>
+			<div class="input-container">
+				<label for="Dob">DOB:</label>
+				<input type="text" id="Dob" class="input-field" />
+			</div>
+			<div>
+			<button class="button">Submit</button>
+			<button class="button">Cancel</button>
+		</div>
+		</div>
+		
+	</div>
+</body>
+</html>
